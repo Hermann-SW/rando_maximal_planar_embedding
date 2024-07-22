@@ -1,4 +1,4 @@
 #/bin/bash
 cmake -DCMAKE_BUILD_TYPE=Release .
 make
-./demo 1200
+./demo $1

@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.1...3.23)
-project(Polyhedron_Examples)
+project(random_maximal_planar_embedding_CGAL_demo)
+
+add_compile_options(-O3 -Wall -Wextra -pedantic)
 
 find_package(CGAL REQUIRED OPTIONAL_COMPONENTS Qt5)
 
