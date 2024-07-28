@@ -9,10 +9,11 @@ Using
 - discussed above ```randomgraph```to create maximal planar random graph
 - CGAL lib [draw_polyhedron.cpp](https://github.com/CGAL/cgal/blob/master/Polyhedron/examples/Polyhedron/draw_polyhedron.cpp) example to display created planar straight line drawing 10.off  
 (.off file has all z-coordinates 0 allowing to use ```draw_polyhedron``` as planar graph viewer)
+- [straight_line_drawing.cpp](straight_line_drawing.cpp)
 ```
 $ NOSTAT= randomgraph 10 -o 10.u
 $ g++ -g -Wall -pedantic -Wextra $f.cpp -o $f
-$ ./straight_line_graphviz 10.u > 10.off 2>err
+$ ./straight_line_drawing 10.u > 10.off 2>err
 $ draw_polyhedron 10.off 
 Using OpenGL context 4.6 GL
 $ 
