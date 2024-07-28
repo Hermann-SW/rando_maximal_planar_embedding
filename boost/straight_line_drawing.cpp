@@ -134,7 +134,7 @@ typedef boost::iterator_property_map< embedding_storage_t::iterator,
     >
     straight_line_drawing_t;
 
-template <class graphType, typename str, class emb_t, class emb_s>
+template <class graphType, class str, class emb_t, class emb_s>
 void
 read_and_embedd(graphType& g, str name, emb_t& embedding,
                                         emb_s& embedding_storage) {
