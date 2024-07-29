@@ -173,13 +173,14 @@ int main(int argc, char** argv) {
 
     read_and_embedd(g, argv[1], embedding,
                                 embedding_storage);
-
+    //                              lifetime
 
     straight_line_drawing_storage_t straight_line_drawing_storage;
     straight_line_drawing_t straight_line_drawing;
 
     do_straight_line_drawing(g, embedding, straight_line_drawing,
                                            straight_line_drawing_storage);
+    //                                         lifetime
 
 
     write_off(g, straight_line_drawing, embedding);
