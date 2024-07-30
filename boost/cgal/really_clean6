@@ -1,0 +1,4 @@
+#/bin/bash
+make clean
+rm -f Makefile CMakeCache.txt cmake_install.cmake draw_planar.hpp Basic_viewer.h
+rm -rf CMakeFiles __

@@ -1,0 +1,7 @@
+#/bin/bash
+cp -f /usr/include/CGAL/draw_polyhedron.h draw_planar.hpp
+sed -i "s/#include <CGAL\/draw_face_graph.h>/#include \"draw_face_graph.h\"/" draw_planar.hpp
+cp -f /usr/include/CGAL/draw_face_graph.h .
+sed -i "s/SimpleFaceGraphViewerQt(parent, g, title, anofaces, DefaultColorFunctorFaceGraph()/Base(parent, title, false, true, true, false, true),m_compute_elements_impl(compute_elements_functor(g, anofaces, DefaultColorFunctorFaceGraph())/" draw_face_graph.h
+cmake -DQT_VERSION_MAJOR=5 -DCMAKE_BUILD_TYPE=Release .
+make

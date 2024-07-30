@@ -1,0 +1,7 @@
+#/bin/bash
+cp -f /usr/include/CGAL/draw_polyhedron.h draw_planar.hpp
+sed -i "s/#include <CGAL\/Qt\/Basic_viewer.h>/#include \"Basic_viewer.h\"/" draw_planar.hpp
+cp -f /usr/include/CGAL/Qt/Basic_viewer.h .
+sed -i "s/bool inverse_normal=false,/bool inverse_normal=true,/" Basic_viewer.h
+cmake -DQT_VERSION_MAJOR=6 -DCMAKE_BUILD_TYPE=Release .
+make
