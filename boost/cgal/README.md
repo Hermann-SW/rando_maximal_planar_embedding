@@ -2,7 +2,7 @@
 
 <kbd>draw\_planar</kbd> gets build for Qt5 by executiong <kbd>build5</kbd>.
 
-<kbd>draw\_planar</kbd> gets build for Qt6 by executiong <kbd>build5</kbd>.
+<kbd>draw\_planar</kbd> gets build for Qt6 by executiong <kbd>build6</kbd>.
 
 ## cleanup
 
