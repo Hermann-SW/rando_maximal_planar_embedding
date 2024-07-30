@@ -3,7 +3,7 @@
 // accompanying file LICENSE_1_0.txt or copy at
 // http://www.boost.org/LICENSE_1_0.txt)
 /*
-f=straight_line_graphviz
+f=straight_line_drawing
 g++ -O3 -Wall -pedantic -Wextra $f.cpp -o $f
 cpplint --filter=-legal/copyright,-build/namespaces,-runtime/reference $f.cpp
 cppcheck --enable=all --suppress=missingIncludeSystem $f.cpp --check-config
