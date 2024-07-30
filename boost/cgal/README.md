@@ -7,8 +7,11 @@
 [draw_planar.cpp](draw_planar.cpp) does assert all points z-coordinates to be 0.  
 Before displaying it sets z-coordinate of first point to -1.  
 Only that way the colored faces of planar embedding can be shown.  
+![../../res/draw_planar.not_a_plane.anim.gif](../../res/draw_planar.not_a_plane.anim.gif)  
 build5 and build6 patch copies of CGAL files to start with colors and inverse_normal true.  
 ```
+$ NOSTAT= randomgraph 10 -o ../10.u
+$ ../straight_line_drawing ../10.u > ../10.off 2>err
 $ ./draw_planar ../10.off 
 Using OpenGL context 4.6 GL
 ```
