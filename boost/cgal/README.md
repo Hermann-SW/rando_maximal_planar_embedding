@@ -1,8 +1,8 @@
 ## build
 
-<kbd>draw\_planar</kbd> gets build for Qt5 by executiong <kbd>build5</kbd>.
+<kbd>draw\_planar</kbd> gets build for Qt5 by executiong [build5](build5).
 
-<kbd>draw\_planar</kbd> gets build for Qt6 by executiong <kbd>build6</kbd>.
+<kbd>draw\_planar</kbd> gets build for Qt6 by executiong [build6](build6).
 
 [draw_planar.cpp](draw_planar.cpp) does assert all points z-coordinates to be 0.  
 Before displaying it sets z-coordinate of first point to -1.  
@@ -20,8 +20,8 @@ Using OpenGL context 4.6 GL
 
 ## cleanup
 
-For Qt5 by executiong <kbd>really_clean5</kbd>.
+For Qt5 by executiong [really_clean5](really_clean5).
 
-For Qt5 by executiong <kbd>really_clean6</kbd>.
+For Qt6 by executiong [really_clean6](really_clean6).
 
 
