@@ -27,7 +27,7 @@ Using OpenGL context 4.6 GL
 
 ## cleanup
 
-For Qt5 and Qt6  by executiong [really_clean](really_clean).
+For Qt5 and Qt6 by executing [really_clean](really_clean).
 
 ## restriction
 
